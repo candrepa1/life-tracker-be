@@ -12,9 +12,14 @@
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",
     "@types/express": "^5.0.0",
+    "@types/pg": "^8.11.11",
+    "drizzle-kit": "^0.30.5",
     "typescript": "^5.8.2"
   },
   "dependencies": {
-    "express": "^5.0.1"
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.40.0",
+    "express": "^5.0.1",
+    "pg": "^8.13.3"
   }
 }
